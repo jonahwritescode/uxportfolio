@@ -1,0 +1,27 @@
+.hover-trigger .hover-target {
+  @apply invisible;
+}
+
+.hover-trigger:hover .hover-target {
+  @apply visible;
+}
+
+.animated-cursor {
+  animation: blink 1s linear infinite alternate;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.aspect-ratio-standard {
+  padding-top: 56.25%;
+}
+
+img-comparison-slider {
+  --divider-width: 0.5px;
+  --divider-color: #000000;
+  --handle-opacity: 0.3;
+  --handle-color: #000000;
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+        .bg-angled-2xl {
+            clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
+        }
+        .bg-angled-xl {
+            clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 96%);
+        }
+        .bg-angled-lg {
+            clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%);
+        }
+        .bg-angled-sm {
+            clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 84%);
+        }
+    }
+}
