@@ -16,7 +16,7 @@ function TraceProject()
                         <p className="text-gray-400 text-lg pt-1 pb-4">5 min read&nbsp;&nbsp;//&nbsp;&nbsp;December 2019 - June 2020</p>  
                     </div>           
             </section>
-            <section className="flex flex-row">
+            <section className="flex flex-col lg:flex-row">
                 <div className="flex flex-col w-5/12">
                     <div className="bg-black h-1/5"></div>
                     <div className="bg-white h-4/5"></div>
@@ -57,7 +57,7 @@ function TraceProject()
                 </div>
             </section>
             <section className="bg-white py-4">
-                <div className="max-w-prose mx-auto px-4 md:px-0">
+                <div className="max-w-4xl mx-auto px-4 md:px-0">
                     <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Background</p>
                     <p className="text-black md:text-lg mb-8">Before diving into the world of UX, I was a developer. I worked on a desktop application called 
                     &nbsp;<ExternalLink path="https://www.trane.com/commercial/north-america/us/en/products-systems/design-and-analysis-tools/trane-design-tools/trace-3d-plus.html" text="TRACE&reg; 3D Plus"></ExternalLink>. 
@@ -111,7 +111,7 @@ function TraceProject()
                 <p className="font-display text-white font-semibold text-2xl md:text-4xl text-center">Thanks for reading!</p>
                 <div className="mx-auto max-w-max pt-4">
                     <Link to="/PortfolioProject">
-                        <button className="transition border-transparent font-semibold text-center uppercase hover:text-brandGreen hover:bg-transparent font-display h-10 border-2 hover:border-brandGreen bg-brandGreen text-black shadow-md hover:shadow-lg active:shadow-sm px-12">Next Project</button>
+                        <button className="transition border-brandGreen font-semibold text-center uppercase hover:text-black hover:bg-brandGreen font-display h-10 border-2 bg-transparent text-brandGreen px-12">Next Project</button>
                     </Link>
                 </div>
                 </div>

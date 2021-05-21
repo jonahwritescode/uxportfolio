@@ -23,7 +23,7 @@ function ThermoKingProject()
                     <div className="bg-black h-1/5"></div>
                     <div className="bg-white h-4/5"></div>
                 </div>
-                <img src={TKImage} alt="Screens from Thermo King Connect placed onto several phones." className="w-full max-w-4xl"></img>
+                <img src={TKImage} alt="Screens from Thermo King Connect placed onto several phones." className="w-full max-w-4xl items-start"></img>
                 <div className="flex flex-col w-5/12">
                     <div className="bg-black h-1/5"></div>
                     <div className="bg-white h-4/5"></div>
@@ -97,7 +97,7 @@ function ThermoKingProject()
                 <p className="font-display text-white font-semibold text-2xl md:text-4xl text-center">Thanks for reading!</p>
                 <div className="mx-auto max-w-max pt-4">
                     <Link to="/EnsembleProject">
-                        <button className="transition border-transparent font-semibold text-center uppercase hover:text-brandGreen hover:bg-transparent font-display h-10 border-2 hover:border-brandGreen bg-brandGreen text-black shadow-md hover:shadow-lg active:shadow-sm px-12">Next Project</button>
+                        <button className="transition border-brandGreen font-semibold text-center uppercase hover:text-black hover:bg-brandGreen font-display h-10 border-2 bg-transparent text-brandGreen px-12">Next Project</button>
                     </Link>
                 </div>
                 </div>

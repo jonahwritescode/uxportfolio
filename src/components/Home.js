@@ -47,7 +47,7 @@ function Home()
               <p className="text-gray-400 md:text-lg pt-1">Visual Design // Interaction Design</p>
               <p className="text-gray-200 md:text-lg pt-4 pb-6">Today, there are a lot of Thermo King mobile apps (11 in Apple’s App Store at the time of writing this). This is problematic because each app has different features, different designs, and in some cases different sign-on methods. Recently, we’ve been working to improve the mobile experience for our customers by consolidating the most used features into a single app. I was tasked with definining the visual design for this app.
                </p>
-                <button className="transition border-transparent font-semibold text-center uppercase font-display h-10 border-2 bg-gray-700 text-black shadow-md mx-auto px-20 w-full lg:w-auto">Coming Soon</button>
+                <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
             </div>
           <div className="relative">
               <img src={EnsembleImage} alt="A laptop on a desk with Tracer Ensemble on the screen" className="object-cover w-full"></img>
@@ -63,7 +63,7 @@ function Home()
               I was brought in to design a solution that would meet their needs.
                </p>
               <Link to="/EnsembleProject">
-                <button className="transition border-transparent font-semibold text-center uppercase hover:text-brandGreen hover:bg-transparent font-display h-10 border-2 hover:border-brandGreen bg-brandGreen text-black shadow-md hover:shadow-lg active:shadow-sm mx-auto px-20 w-full lg:w-auto">Read More</button>
+                <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
               </Link>
             </div>
             <div className="relative">
@@ -80,7 +80,7 @@ function Home()
               design the feature. This was one of the first projects that helped me realize my passion for UX. 
               </p>
               <Link to="/TraceProject">
-                <button className="transition border-transparent font-semibold text-center uppercase hover:text-brandGreen hover:bg-transparent font-display h-10 border-2 hover:border-brandGreen bg-brandGreen text-black shadow-md hover:shadow-lg active:shadow-sm mx-auto px-20 w-full lg:w-auto">Read More</button>
+                <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
               </Link>
             </div>
             <div className="relative">
@@ -95,7 +95,7 @@ function Home()
               <p className="text-gray-200 md:text-lg pb-4">What kind of portfolio includes a section showcasing itself? Well, this one apparently. This site was an ambitious project – I used almost every tool in my toolbox to make it just right. And I learned a lot along the way. 
               </p>
               <Link to="/PortfolioProject">
-                <button className="transition border-transparent font-semibold text-center uppercase hover:text-brandGreen hover:bg-transparent font-display h-10 border-2 border-brandGreen bg-brandGreen text-black shadow-md hover:shadow-lg active:shadow-sm mx-auto px-20 w-full lg:w-auto">Read More</button>
+                <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
               </Link>
             </div>
         </div>

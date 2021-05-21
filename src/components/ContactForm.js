@@ -8,12 +8,12 @@ function ContactForm()
     function sendEmail(e) {
         e.preventDefault();
         showSuccessToast();
-/*         Emailjs.sendForm('portfolio_mail_sender', 'template_gqdmul7', e.target)
+         Emailjs.sendForm('portfolio_mail_sender', 'template_gqdmul7', e.target)
             .then((result) => {
                 showSuccessToast();
             }, (error) => {
                 alert(error.text);
-            }); */
+            }); 
     }
 
     function showSuccessToast()
@@ -58,7 +58,7 @@ function ContactForm()
                     <textarea type="text" id="message" name="message" className="mb-3 border border-gray-300 overflow-y-auto h-40 p-3" required></textarea>
                 </div>
                 <div className="p-8 bg-gray-800">
-                    <button type="submit" value="Send" className="transition border-transparent font-semibold text-center uppercase hover:text-brandGreen hover:bg-transparent font-display h-10 border-2 hover:border-brandGreen w-full bg-brandGreen text-black shadow-md hover:shadow-lg active:shadow-sm">Send</button>
+                    <button type="submit" value="Send" className="transition border-brandGreen font-semibold text-center uppercase hover:text-black hover:bg-brandGreen font-display h-10 border-2 w-full bg-transparent text-brandGreen">Send</button>
                 </div>
             </form>
         </div>

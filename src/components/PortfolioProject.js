@@ -17,7 +17,7 @@ function PortfolioProject()
                         <p className="text-gray-400 text-lg pt-1 pb-4">4 min read&nbsp;&nbsp;//&nbsp;&nbsp;July 2020 - May 2021</p>  
                     </div>           
             </section>
-            <section className="flex flex-row">
+            <section className="flex flex-col lg:flex-row">
                 <div className="flex flex-col w-5/12">
                     <div className="bg-black h-1/5"></div>
                     <div className="bg-white h-4/5"></div>
@@ -50,7 +50,7 @@ function PortfolioProject()
                 </div>
             </section>
             <section className="bg-white py-4">
-                <div className="max-w-prose mx-auto px-4 md:px-0">
+                <div className="max-w-4xl mx-auto px-4 md:px-0">
                     <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Background</p>
                     <p className="text-black md:text-lg mb-8">What kind of portfolio includes a section showcasing itself? Well, this one apparently. This site was an ambitious project – I used almost every tool in my toolbox to make it just right. And I learned a lot along the way. 
                     </p>
@@ -100,7 +100,7 @@ The layout was largely informed by other online portfolios that I’d seen. I pu
                 <p className="font-display text-white font-semibold text-2xl md:text-4xl text-center">Thanks for reading!</p>
                 <div className="mx-auto max-w-max pt-4">
                     <Link to="/EnsembleProject">
-                        <button className="transition border-transparent font-semibold text-center uppercase hover:text-brandGreen hover:bg-transparent font-display h-10 border-2 hover:border-brandGreen bg-brandGreen text-black shadow-md hover:shadow-lg active:shadow-sm px-12">Next Project</button>
+                        <button className="transition border-brandGreen font-semibold text-center uppercase hover:text-black hover:bg-brandGreen font-display h-10 border-2 bg-transparent text-brandGreen px-12">Next Project</button>
                     </Link>
                 </div>
                 </div>

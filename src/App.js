@@ -41,9 +41,9 @@ function App() {
             <Home></Home>
           </Route>
         </Switch>      
-        <div id="success_toast" className="bg-white border border-gray-200 shadow-lg fixed top-16 md:top-20 left-4 z-30 flex flex-row opacity-0">
-            <div className="bg-green-800 border-r border-gray-200 p-3 text-white text-2xl"><i className="fas fa-check-circle"></i></div>
-            <p className="text-black align-middle my-auto mx-4 font-semibold">Your message has been sent. I'll be in touch soon!</p>
+        <div id="success_toast" className="bg-black border border-gray-700 shadow-lg fixed top-16 md:top-20 left-4 z-30 flex flex-row opacity-0">
+            <div className="border-r border-gray-700 p-3 text-white text-2xl"><i className="fas fa-check-circle"></i></div>
+            <p className="text-white align-middle my-auto mx-4 font-semibold">Your message has been sent. I'll be in touch soon!</p>
         </div>
         <footer className="bg-gray-900 border-t border-gray-800 flex py-12">
             <div className="grid md:grid-cols-2 gap-6 mx-auto">
@@ -53,7 +53,7 @@ function App() {
                 <Link to="/ThermoKingProject" className="text-brandGreen hover:underline text-lg pb-2" href="#">Designing a New Mobile Experience for Thermo King Customers</Link>
                 <Link to="/EnsembleProject" className="text-brandGreen hover:underline text-lg pb-2" href="#">Redesigning User Permissions for Tracer® Ensemble®</Link>
                 <Link to="/TraceProject" className="text-brandGreen hover:underline text-lg" href="#">Building a daylighting analysis tool in Trace 3D Plus</Link>
-                {/* <Link to="/PortfolioProject" className="text-gray-500 text-lg" href="#">Behind the Screens: The Making of this Site</Link> */}
+                <Link to="/PortfolioProject" className="text-brandGreen hover:underline text-lg" href="#">Behind the Screens: The Making of this Site</Link>
               </div>
               <div className="flex flex-col w-80 mx-auto">
                 <p className="text-white font-semibold font-display text-xl pb-2">Credits</p>
