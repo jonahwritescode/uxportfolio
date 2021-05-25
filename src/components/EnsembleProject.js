@@ -65,7 +65,7 @@ function EnsembleProject()
                     <p className="text-black md:text-lg mb-8">During my tenure at Trane, I redesigned the user permissions flow for
                     &nbsp;<ExternalLink path="https://www.trane.com/commercial/north-america/us/en/services/operate-maintain-repair/connectivity-and-cloud-services/tracer-ensemble-enterprise-building-management-systems.html" text="Tracer&reg; Ensemble&reg;"></ExternalLink> - 
               a web application used to remotely manage the HVAC equipment in buildings. Admin users wanted more control over other users' permissions than the current feature could provide.
-              I was brought in to design a solution that would meet their needs.
+              I conducted research to identify a design solution that would meet their needs.
                     </p>
                     <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Identifying User Needs</p>
                     <p className="text-black md:text-lg">I started the design process by figuring out what these needs were. I was new to the 

@@ -61,8 +61,7 @@ function TraceProject()
                     <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Background</p>
                     <p className="text-black md:text-lg mb-8">Before diving into the world of UX, I was a developer. I worked on a desktop application called 
                     &nbsp;<ExternalLink path="https://www.trane.com/commercial/north-america/us/en/products-systems/design-and-analysis-tools/trane-design-tools/trace-3d-plus.html" text="TRACE&reg; 3D Plus"></ExternalLink>. 
-              We were tasked with developing a feature that would allow the user to change the position of the sun in their building model. We lacked a designer, so I volunteered to 
-              design the feature. This was one of the first projects that helped me realize my passion for UX.
+              We were tasked with developing a feature that would allow the user to change the position of the sun in their building model. I worked closely with product management to design & develop an intuitive method for changing the position of the sun.
                     </p>
                     <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Competitive Analysis</p>
                     <p className="text-black md:text-lg pb-4">A few months before we would need to start building the feature, our product owners provided us with a high-level list of requirements 

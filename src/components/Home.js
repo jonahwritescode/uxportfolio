@@ -45,9 +45,11 @@ function Home()
               </div>
               <hr className="border-t border-gray-700 w-full md:w-1/2"></hr>
               <p className="text-gray-400 md:text-lg pt-1">Visual Design // Interaction Design</p>
-              <p className="text-gray-200 md:text-lg pt-4 pb-6">Today, there are a lot of Thermo King mobile apps (11 in Apple’s App Store at the time of writing this). This is problematic because each app has different features, different designs, and in some cases different sign-on methods. Recently, we’ve been working to improve the mobile experience for our customers by consolidating the most used features into a single app. I was tasked with definining the visual design for this app.
+              <p className="text-gray-200 md:text-lg pt-4 pb-6">Today, there are a lot of Thermo King mobile apps (11 in Apple’s App Store at the time of writing this). This is problematic because each app has different features, different designs, and in some cases different sign-on methods. Recently, we’ve been working to improve the mobile experience for our customers by consolidating the most used features into a single app. I led the visual design efforts for this new app. 
                </p>
+               <Link to="/ThermoKingProject">
                 <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
+                </Link>
             </div>
           <div className="relative">
               <img src={EnsembleImage} alt="A laptop on a desk with Tracer Ensemble on the screen" className="object-cover w-full"></img>
@@ -60,7 +62,7 @@ function Home()
               <p className="text-gray-400 md:text-lg pt-1">Interaction Design&nbsp;&nbsp;//&nbsp;&nbsp;Visual Design&nbsp;&nbsp;//&nbsp;&nbsp;User Research</p>
               <p className="text-gray-200 md:text-lg pt-4 pb-6">During my tenure at Trane, I redesigned the user permissions flow for Tracer&reg; Ensemble&reg; - 
               a web application used to remotely manage the HVAC equipment in buildings. Admin users wanted more control over other users' permissions than the current feature could provide.
-              I was brought in to design a solution that would meet their needs.
+              I conducted research to identify a design solution that would meet their needs.
                </p>
               <Link to="/EnsembleProject">
                 <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
@@ -76,8 +78,7 @@ function Home()
               <hr className="border-t border-gray-700 w-full md:w-1/2"></hr>
               <p className="text-gray-400 md:text-lg pt-1 pb-4">Interaction Design&nbsp;&nbsp;//&nbsp;&nbsp;Front-End Development</p>
               <p className="text-gray-200 md:text-lg pb-4">Before diving into the world of UX, I was a developer. I worked on a desktop application called TRACE&reg; 3D Plus. 
-              We were tasked with developing a feature that would allow the user to change the position of the sun in their building model. We lacked a designer, so I volunteered to 
-              design the feature. This was one of the first projects that helped me realize my passion for UX. 
+              Our team was tasked with developing a feature that would allow the user to change the position of the sun in their building model. I worked closely with product management to design & develop an intuitive method for changing the position of the sun. 
               </p>
               <Link to="/TraceProject">
                 <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
@@ -117,7 +118,7 @@ function Home()
               <p className="text-black font-semibold font-display text-2xl md:text-3xl pb-2">Design Tools</p>
               <hr></hr>
               <div className="flex flex-row pt-4">
-                <img src={AxureIcon} className="w-16 mr-3"></img>
+                <img src={AxureIcon} className="w-16 h-auto mr-3"></img>
                 <div className="w-full">
                   <div className="flex flex-row justify-between pb-1">
                     <p className="text-gray-800">Axure</p>
