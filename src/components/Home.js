@@ -84,21 +84,6 @@ function Home()
                 <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
               </Link>
             </div>
-            <div className="relative">
-              <img src={PortfolioProjectImage} alt="Four images that show what this site looked look at various stages of the design process" className="object-cover w-full"></img>
-          </div>
-          <div className="h-auto my-auto lg:px-6">
-              <div className="pb-2">
-                <p className="text-white font-semibold font-display text-2xl md:text-3xl">Behind the Screens: The Making of this Site</p>
-              </div>
-              <hr className="border-t border-gray-700 w-full md:w-1/2"></hr>
-              <p className="text-gray-400 md:text-lg pt-1 pb-4">Visual Design&nbsp;&nbsp;//&nbsp;&nbsp;Interaction Design&nbsp;&nbsp;//&nbsp;&nbsp;Front-End Development</p>
-              <p className="text-gray-200 md:text-lg pb-4">What kind of portfolio includes a section showcasing itself? Well, this one apparently. This site was an ambitious project – I used almost every tool in my toolbox to make it just right. And I learned a lot along the way. 
-              </p>
-              <Link to="/PortfolioProject">
-                <button className="transition border-brandGreen font-semibold text-center uppercase font-display h-10 border-2 bg-transparent text-brandGreen hover:bg-brandGreen hover:text-black mx-auto px-20 w-full lg:w-auto">Read More</button>
-              </Link>
-            </div>
         </div>
       </section>
       <section className="bg-white py-20 md:bg-angled-lg bg-angled-xl">

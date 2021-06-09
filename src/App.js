@@ -34,9 +34,6 @@ function App() {
           <Route path="/ThermoKingProject">
             <ThermoKingProject></ThermoKingProject>
           </Route>
-          <Route path="/PortfolioProject">
-            <PortfolioProject></PortfolioProject>
-          </Route>
           <Route path="/">
             <Home></Home>
           </Route>
@@ -53,7 +50,6 @@ function App() {
                 <Link to="/ThermoKingProject" className="text-brandGreen hover:underline text-lg pb-2" href="#">Designing a New Mobile Experience for Thermo King Customers</Link>
                 <Link to="/EnsembleProject" className="text-brandGreen hover:underline text-lg pb-2" href="#">Redesigning User Permissions for Tracer® Ensemble®</Link>
                 <Link to="/TraceProject" className="text-brandGreen hover:underline text-lg" href="#">Building a daylighting analysis tool in Trace 3D Plus</Link>
-                <Link to="/PortfolioProject" className="text-brandGreen hover:underline text-lg" href="#">Behind the Screens: The Making of this Site</Link>
               </div>
               <div className="flex flex-col w-80 mx-auto">
                 <p className="text-white font-semibold font-display text-xl pb-2">Credits</p>

@@ -62,7 +62,7 @@ class Navbar extends React.Component
                             <Link to="/#Contact" onClick={() => this.openMenu()}>Contact</Link>
                         </li>
                         <li className="text-white text-3xl font-display py-2 hover:text-brandGreen text-center">
-                            <a href={Resume} target="_blank" className="transition text-white hover:text-brandGreen text-xl font-display font-semibold">Resume</a>
+                            <a href={Resume} target="_blank" className="transition text-white hover:text-brandGreen text-3xl font-display font-semibold">Resume</a>
                         </li>
                     </ul>
                 </div>

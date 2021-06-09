@@ -109,7 +109,7 @@ function TraceProject()
                 <div className="max-w-4xl mx-auto px-4 md:px-0">
                 <p className="font-display text-white font-semibold text-2xl md:text-4xl text-center">Thanks for reading!</p>
                 <div className="mx-auto max-w-max pt-4">
-                    <Link to="/PortfolioProject">
+                    <Link to="/ThermoKingProject">
                         <button className="transition border-brandGreen font-semibold text-center uppercase hover:text-black hover:bg-brandGreen font-display h-10 border-2 bg-transparent text-brandGreen px-12">Next Project</button>
                     </Link>
                 </div>
