@@ -3,7 +3,7 @@ import './NavItem';
 import '../App.css';
 import NavItem from './NavItem';
 import {HashLink as Link} from "react-router-hash-link";
-import Resume from '../documents/jonah-resume-2021.pdf';
+import Resume from '../documents/jonah-resume-2023.pdf';
 
 class Navbar extends React.Component
 {

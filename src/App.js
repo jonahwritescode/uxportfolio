@@ -54,7 +54,7 @@ function App() {
               <div className="flex flex-col w-80 mx-auto">
                 <p className="text-white font-semibold font-display text-xl pb-2">Credits</p>
                 <hr className="w-14 mb-2 border-gray-700"></hr>
-                <p className="text-gray-200 text-lg pb-2">This site was designed, developed, and tested by Jonah Miller in 2021.</p>
+                <p className="text-gray-200 text-lg pb-2">This site was designed, developed, and tested by Jonah Miller in 2023.</p>
               </div>
             </div>
         </footer>
