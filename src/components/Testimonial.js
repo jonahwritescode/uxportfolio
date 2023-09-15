@@ -10,7 +10,8 @@ class Testimonial extends React.Component
                 <p className="text-gray-200 md:text-lg py-6">{this.props.person.quote}</p>  
                 <hr className="border-t border-gray-700 w-1/2 mx-auto"></hr>
                 <p className="text-white text-center font-display text-semibold text-xl md:text-2xl pt-4">{this.props.person.firstName}&nbsp;<span className="text-brandGreen">{this.props.person.lastName}</span></p>
-                <p className="text-gray-200 text-center text-lg md:text-xl">{this.props.person.title}</p>     
+                <p className="text-gray-200 text-center text-lg md:text-xl">{this.props.person.title}</p>
+                <p className="text-gray-300 text-center text-lg md:text-xl font-mono">{this.props.person.year}</p>  
               </div>
           </div>                      
         );

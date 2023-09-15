@@ -63,7 +63,7 @@ function TraceProject()
                     &nbsp;<ExternalLink path="https://www.trane.com/commercial/north-america/us/en/products-systems/design-and-analysis-tools/trane-design-tools/trace-3d-plus.html" text="TRACE&reg; 3D Plus"></ExternalLink>. 
               We were tasked with developing a feature that would allow the user to change the position of the sun in their building model. I worked closely with product management to design & develop an intuitive method for changing the position of the sun.
                     </p>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Competitive Analysis</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Competitive analysis</p>
                     <p className="text-black md:text-lg pb-4">A few months before we would need to start building the feature, our product owners provided us with a high-level list of requirements 
                     that our solution needed to fulfill. After we reviewed the requirements as a team, we had a lot of questions. What should moving the sun feel like? 
                     How can we make this feature intuitive and accessible? What options should we provide for controlling the sun's position?
@@ -72,20 +72,20 @@ function TraceProject()
                     </p>
                     <img src={TraceCompetitiveAnalysis} alt="A screenshot from AutoDesk Revit: A building with a compass around it and the sun above it" className="mx-auto border border-gray-200"></img>
                     <p className="text-gray-500 mx-auto pt-2 pb-8 max-w-3xl text-center text-sm md:text-base">Autodesk Revit, Google SketchUp, and IESVE were some of the products I analyzed.</p>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Initial Concepts</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Initial concepts</p>
                     <p className="text-black md:text-lg pb-4">I began sketching some ideas using the insights that I gained from the competitive analysis.
                     These sketches helped us figure out where we wanted to go with the feature. 
                     </p>
                     <img src={TraceSketch} alt="An early wireframe: A building with a sun above it and a user interface to control the sun" className="mx-auto border border-gray-200"></img>
                     <p className="text-gray-500 mx-auto pt-2 pb-8 max-w-3xl text-center text-sm md:text-base">The first tool I used for creating mock-ups and wireframes was a free online tool called Wireframe Pro. I've come a long way since then!</p>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Refining the Design</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Refining the design</p>
                     <p className="text-black md:text-lg pb-4">
                     I continued iterating on the design until it was time to start implementing it. By this point, I managed to get hold of an extra Axure license and my rapid prototyping abilities had improved significantly. 
                     I shared my design iterations with stakeholders and internal users to gather feedback. The cycle of sharing updates, gathering feedback, and making design changes continued until it was time to start developing.                 
                     </p>
                     <img src={TraceRefiningDesign} alt="A more recent design: A popup-window with radio buttons, date pickers, and checkboxes to control the sun" className="mx-auto border border-gray-200"></img>
                     <p className="text-gray-500 mx-auto pt-2 pb-8 max-w-3xl text-center text-sm md:text-base">We provided two different options for controlling the sun's position. The slider was designed to allow users to quickly see how the daylight would hit their building over the course of a day. The popup window was designed to allow users to see the sun's position at a specific date and time.</p>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Building It</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Building it</p>
                     <p className="text-black md:text-lg pb-4">Being both the designer and the front-end developer on this feature worked out nicely. 
                     Usually when I hand off designs to the developers, some details get lost in translation. That wasn't the case here. I knew exactly what we needed to build. The challenge was building it in the time we had.
                     <br></br><br></br>
@@ -93,7 +93,7 @@ function TraceProject()
                     We also needed to figure out how to calculate the solar position based on a time, date, and location. The backend developer that I worked with found an incredibly useful 
                     &nbsp;<ExternalLink path="https://www.esrl.noaa.gov/gmd/grad/solcalc/" text="Solar Position calculator from NOAA"></ExternalLink> that we used to get the data we needed to display the sun accurately.          
                     </p>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Gathering Feedback</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Gathering feedback</p>
                     <p className="text-black md:text-lg pb-8">One of the things that I think made this feature successful was the fact that we continually gathered feedback. 
                     The design went through a ton of changes before we even started writing any code. After we started implementing it, it continued to evolve (albeit in smaller ways).  
                     The addition of a date slider, the ability to quickly turn the shadows on/off, and the ability to move the slider with the arrow keys were all changes that resulted from

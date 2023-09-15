@@ -67,7 +67,7 @@ function EnsembleProject()
               a web application used to remotely manage the HVAC equipment in buildings. Admin users wanted more control over other users' permissions than the current feature could provide.
               I conducted research to identify a design solution that would meet their needs.
                     </p>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Identifying User Needs</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Identifying user needs</p>
                     <p className="text-black md:text-lg">I started the design process by figuring out what these needs were. I was new to the 
                     Ensemble team, so I met with stakeholders to learn more about who the users are and why they use the product. Together, we identified 
                     three problems that we needed to address with the redesign:                    
@@ -89,7 +89,7 @@ function EnsembleProject()
                             <p className="text-gray-800 md:text-lg pt-4">The current permissions structure is hard to maintain.</p>
                         </div>    
                     </div>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Initial Concepts</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Initial concepts</p>
                     <p className="text-black md:text-lg pb-4">Users wanted more control over permissions than the original permissions feature could provide. 
                     We would need to add additional permissions (and therefore additional complexity) to an already long and complicated workflow. 
                     My challenge was to design a solution that could disguise this complexity and help users set up permissions with confidence. 
@@ -98,7 +98,7 @@ function EnsembleProject()
                     <img src={EnsembleInitialConcepts} alt="An early mock-up of a web form with multiple steps" className="mx-auto border border-gray-200"></img>
                     <p className="text-gray-500 mx-auto pt-2 pb-8 max-w-3xl text-center text-sm md:text-base">A senior UX Designer who was familiar with Ensemble provided early feedback 
                     and helped familiarize me with the Ensemble design patterns.</p>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Customer Feedback</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Customer feedback</p>
                     <p className="text-black md:text-lg">After putting together a prototype, I sought feedback from customers to determine if the design was suitable. 
                     I recruited individuals from a variety of market segments to ensure that my sample adequately represented our user base. I met with each individual 
                     virtually. I shared my screen while I asked them questions. The questions were designed to figure out users' preferences and to determine if they 
@@ -121,7 +121,7 @@ function EnsembleProject()
                             <p className="text-gray-800 md:text-lg pt-4">The new workflow makes me confident that I'm going to get what I expect when I set up a new user.</p>
                         </div>    
                     </div>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Refining the Design</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Refining the design</p>
                     <p className="text-black md:text-lg pb-4">I used the research findings to improve the design. After all the research sessions had concluded, 
                     I met with the stakeholders to determine our next steps. Since many participants didn't know about the existing permissions feature, we wanted to
                     ensure that the new feature would be easy to find. To help customers discover the feature, we renamed the 
@@ -129,7 +129,7 @@ function EnsembleProject()
                     </p>
                     <img src={EnsembleRefiningDesign} alt=">A screenshot from a prototype I created after the first round of research." className="mx-auto border border-gray-200"></img>
                     <p className="text-gray-500 mx-auto pt-2 pb-8 max-w-3xl text-center md:text-base text-sm">A screenshot from a prototype I created after the first round of research.</p>
-                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Usability Testing</p>
+                    <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Usability testing</p>
                     <p className="text-black md:text-lg pb-8">With the time left before the project deadline, I conducted a usability test. I wanted to 
                     uncover usability issues before I handed off the design to the developers. I recruited three participants 
                     and wrote a task list for them to complete. The task list required them to perform user management tasks as they would in the real world.<br></br><br></br>
@@ -139,8 +139,7 @@ function EnsembleProject()
                     </p>
                     <p className="text-black text-2xl md:text-4xl font-display font-semibold pb-4">Outcome</p>
                     <p className="text-black md:text-lg pb-8">I created the final visual design by following our style guidelines and handed it off to 
-                    the developers. At the time of me writing this, the design has not yet been implemented. We got a lot of positive feedback from customers 
-                    throughout the design process, so I'm confident the feature will be well-received when it is released.              
+                    the developers. Unfortunately, the project was backlogged and never made it into production.         
                     </p>
                 </div>
             </section>

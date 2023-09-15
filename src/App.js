@@ -5,7 +5,8 @@ import Home from './components/Home';
 import EnsembleProject from './components/EnsembleProject';
 import TraceProject from './components/TraceProject';
 import ThermoKingProject from './components/protected/ThermoKingProject';
-import PortfolioProject from './components/PortfolioProject';
+import TruistTradeProject from './components/TruistTradeProject';
+import BranchPilotProject from './components/BranchPilotProject';
 import About from './components/About';
 import ScrollToTop from './components/ScrollToTop';
 import {
@@ -34,6 +35,12 @@ function App() {
           <Route path="/ThermoKingProject">
             <ThermoKingProject></ThermoKingProject>
           </Route>
+          <Route path="/TruistTradeProject">
+            <TruistTradeProject></TruistTradeProject>
+          </Route>
+          <Route path="/BranchPilotProject">
+            <BranchPilotProject></BranchPilotProject>
+          </Route>
           <Route path="/">
             <Home></Home>
           </Route>
@@ -47,14 +54,16 @@ function App() {
               <div className="flex flex-col w-80">
                 <p className="text-white font-semibold font-display text-xl pb-2">Projects</p>
                 <hr className="w-14 mb-2 border-gray-700"></hr>
+                <Link to="/BranchPilotProject" className="text-brandGreen hover:underline text-lg pb-2" href="#">Convincing Truist's branch customers to transact digitally</Link>
+                <Link to="/TruistTradeProject" className="text-brandGreen hover:underline text-lg pb-2" href="#">Bringing Truist's first all-digital brokerage account to market</Link>
                 <Link to="/ThermoKingProject" className="text-brandGreen hover:underline text-lg pb-2" href="#">Designing a New Mobile Experience for Thermo King Customers</Link>
                 <Link to="/EnsembleProject" className="text-brandGreen hover:underline text-lg pb-2" href="#">Redesigning User Permissions for Tracer® Ensemble®</Link>
-                <Link to="/TraceProject" className="text-brandGreen hover:underline text-lg" href="#">Building a daylighting analysis tool in Trace 3D Plus</Link>
+                <Link to="/TracePilotProject" className="text-brandGreen hover:underline text-lg" href="#">Building a daylighting analysis tool in Trace 3D Plus</Link>
               </div>
               <div className="flex flex-col w-80 mx-auto">
                 <p className="text-white font-semibold font-display text-xl pb-2">Credits</p>
                 <hr className="w-14 mb-2 border-gray-700"></hr>
-                <p className="text-gray-200 text-lg pb-2">This site was designed, developed, and tested by Jonah Miller in 2023.</p>
+                <p className="text-gray-200 text-lg pb-2">This site was designed, developed, and tested by Jonah Miller in 2023. <br/><br/>The site's design was inspired by a computer terminal - a nod to my background in engineering.</p>
               </div>
             </div>
         </footer>

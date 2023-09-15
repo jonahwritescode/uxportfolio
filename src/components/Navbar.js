@@ -42,7 +42,9 @@ class Navbar extends React.Component
                             </div>
                             <ul className="hidden md:flex md:flex-row pt-5 transition">
                                 <NavItem path="/#Work" text="Work"></NavItem>
-                                <NavItem path="/about" text="About"></NavItem>
+                                <li className="relative hover-trigger h-11 mx-5">
+                                    <a href="https://www.linkedin.com/in/jonah-miller-b98346136/" target="_blank" className="transition text-white hover:text-brandGreen text-xl font-display font-semibold">LinkedIn</a>
+                                </li>
                                 <NavItem path="/#Contact" text="Contact"></NavItem>
                                 <li className="relative hover-trigger h-11 mx-5">
                                     <a href={Resume} target="_blank" className="transition text-white hover:text-brandGreen text-xl font-display font-semibold">Resume</a>
@@ -56,7 +58,7 @@ class Navbar extends React.Component
                             <Link to="/#Work" onClick={() => this.openMenu()}>Work</Link>
                         </li>
                         <li className="text-white text-3xl font-display py-2 hover:text-brandGreen text-center">
-                            <Link to="/about" onClick={() => this.openMenu()}>About</Link>
+                            <a href="https://www.linkedin.com/in/jonah-miller-b98346136/" target="_blank">LinkedIn</a>
                         </li>
                         <li className="text-white text-3xl font-display py-2 hover:text-brandGreen text-center">
                             <Link to="/#Contact" onClick={() => this.openMenu()}>Contact</Link>
