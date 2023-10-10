@@ -127,7 +127,7 @@ helped create. Read on to learn more.
             <p className="font-display text-black text-3xl md:text-5xl font-semibold">Tech geek.</p>
             <BinaryTextureInverse className="absolute -top-4 -left-20"></BinaryTextureInverse>
           </div>
-          <p className="text-gray-800 md:text-lg pb-6 max-w-xl">I'm a versatile creative professional with 4+ years designing and developing complex digital experiences. Here are a few of my favorite tools, methods, and technologies that I've picked up along the way.</p>
+          <p className="text-gray-800 md:text-lg pb-6 max-w-xl">I'm a versatile creative professional with 5+ years of experience designing and developing complex digital experiences. Here are a few of my favorite tools, methods, and technologies that I've picked up along the way.</p>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-white p-8 shadow-lg border border-gray-200">
               <p className="text-black font-semibold font-display text-2xl md:text-3xl pb-2">Design Tools</p>
